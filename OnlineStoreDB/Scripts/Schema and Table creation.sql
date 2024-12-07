@@ -3,7 +3,7 @@
 --------------------------------------------------------
 IF NOT EXISTS(SELECT * FROM sys.databases WHERE name = 'OnlineStore')
 	BEGIN
-		CREATE DATABASE OnlineStore;
+		CREATE DATABASE OnlineStoreDB;
 	END
 
 USE OnlineStoreDB;
@@ -39,7 +39,7 @@ CREATE TABLE person.customer(
 	[description]	VARCHAR (2000)	NULL,
 	CONSTRAINT pk_customer PRIMARY KEY (customer_id)
 );
-
+----------------------------------------------------------------------------------------
 CREATE TABLE production.product_category(
 	product_category_id	INT				NOT NULL IDENTITY (1, 1),
 	name				VARCHAR (50)	NOT NULL,
@@ -131,7 +131,7 @@ CREATE TABLE production.review(
 		ON UPDATE NO ACTION,
 	CONSTRAINT chk_review_raiting_range CHECK(rating >= 0 and rating <= 5)
 );
-
+------------------------------------------------------------------------------------------
 CREATE TABLE production.review_image(
 	review_image_id		INT				NOT NULL IDENTITY (1, 1),
 	product_id			INT				NOT NULL,
