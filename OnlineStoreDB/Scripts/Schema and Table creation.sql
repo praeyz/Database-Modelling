@@ -147,3 +147,10 @@ CREATE TABLE production.review_image(
 		ON DELETE CASCADE 
 		ON UPDATE NO ACTION,
 );
+--------------------------------------------------------------------------------------
+CREATE TABLE dbo.migration_history(
+	migration_history_id	INT				NOT NULL,
+	description				VARCHAR(500)	NOT NULL,
+	CONSTRAINT pk_migration_history PRIMARY KEY (migration_history_id)
+);
+-----------------------------------------------------------------------------------
