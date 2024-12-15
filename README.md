@@ -1,1 +1,1 @@
-# Database-Modelling inlcluding indexing Vertical and horizontal partitioning
+# Database-Modelling including indexing, Vertical and horizontal partitioning
