@@ -3,7 +3,7 @@
 
 <br>Welcome to my Database Modelling Repository!
 
-This repository contains a comprehensive collection of database modeling techniques and scripts, showcasing my understanding in database design and management. The project includes various aspects of database modeling, such as indexing, vertical and horizontal partitioning, and more.
+This repository contains a comprehensive collection of database modeling techniques and scripts using SQL, showcasing my understanding in database design and management. The project includes various aspects of database modeling, such as indexing, vertical and horizontal partitioning, and more.
 
 ## Key Features:
 - **Indexing:** Efficient indexing techniques to optimize query performance and data retrieval.
